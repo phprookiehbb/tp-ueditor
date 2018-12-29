@@ -17,6 +17,7 @@ composer require phprookiehbb/tp-ueditor:dev-master
 
 ## 使用
 ```php
+直接在需要使用编辑器的视图文件用如下定义即可：
 {:ueditor([
     'initialFrameHeight'=>500,
     'initialFrameWidth'=>1024,
