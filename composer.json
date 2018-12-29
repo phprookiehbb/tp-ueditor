@@ -1,0 +1,21 @@
+{
+    "name": "phprookiehbb/tp-ueditor",
+    "description": "百度编辑器For Thinkphp5",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "phprookiehbb",
+            "email": "646054215@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+          "Crasphb\\": "src/"
+        },
+        "files": [
+           "src/common.php"
+        ]
+    }
+}
