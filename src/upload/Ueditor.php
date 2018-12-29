@@ -4,7 +4,7 @@
  * @Author: CraspHB彬
  * @Date:   2018-12-29 11:23:53
  * @Email:   646054215@qq.com
- * @Last Modified time: 2018-12-29 15:30:12
+ * @Last Modified time: 2018-12-29 15:55:57
  */
 namespace Crasphb\upload;
 use think\Config;
@@ -64,6 +64,7 @@ class Ueditor{
         echo $this->view->fetch($template,$vars,$replace,$config);
     }	
     public function index($params){
+        $params['serverUrl'] = '/Ueditor/upload/index';
     	$this->view->assign('params',json_encode($params));
 		return $this->fetch();
 	}
